@@ -27,15 +27,15 @@ API REST para gerenciamento de biblioteca, desenvolvida com Spring Boot e Postgr
 
 Clone o repositório:
 ```bash
-git clone git@github.com:seunome/biblioteca-api.git
+git clone git@github.com:JJ0o0/biblioteca-api.git
 cd biblioteca-api
 ```
 
 Suba o banco de dados:
 ```bash
 docker run --name postgres-dev \
-  -e POSTGRES_PASSWORD=senha123 \
-  -e POSTGRES_USER=usuario \
+  -e POSTGRES_PASSWORD=suasenha \
+  -e POSTGRES_USER=seuusuario \
   -e POSTGRES_DB=bibliotecadb \
   -p 5432:5432 \
   -d postgres:16
