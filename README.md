@@ -5,7 +5,7 @@ API REST para gerenciamento de biblioteca, desenvolvida com Spring Boot e Postgr
 ## Tecnologias
 
 - Java 21
-- Spring Boot 3.4
+- Spring Boot 4.0.5
 - Spring Data JPA
 - PostgreSQL
 - Docker
